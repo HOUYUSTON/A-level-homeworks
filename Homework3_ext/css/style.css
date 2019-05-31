@@ -1,0 +1,61 @@
+body{
+    font-family:serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.wrapper{
+  background-color: #0d5825;
+  padding-top: 50px;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing:border-box;
+}
+
+.card{
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  width: 150px;
+  transition: all 0.4s ease;
+}
+
+.first:hover{
+  transform: translate(110px,-25px) rotate(-25deg);
+}
+
+.first{
+  transform: translate(110px,-5px) rotate(-25deg);
+}
+
+.second{
+  transform: rotate(-15deg);
+}
+
+.second:hover{
+  transform: translateY(-20px) rotate(-15deg);
+}
+
+.third{
+  transform: translate(-100px,15px) rotate(5deg);
+}
+
+.third:hover{
+  transform: translate(-100px,-5px) rotate(5deg);
+}
+
+q::before{
+   content: "❝";
+}
+
+ q::after{
+   content: "❞";
+ }
+
+.author{
+  font-style: italic;
+}

@@ -1,0 +1,22 @@
+body {
+	margin: auto;
+	width: 50vw;
+	font-family: sans-serif;
+}
+
+.sample-text{
+	text-align: left;
+	background-color: GhostWhite;
+	padding-left: 15px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+hr{
+	color: #F8F8FF;
+}
+
+.code{
+	white-space: pre-wrap;
+	text-align: left;
+}

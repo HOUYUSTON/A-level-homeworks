@@ -1,0 +1,116 @@
+:root {
+    --bgc: #ebf0f5;
+    --font: #646464;
+}
+
+
+body{
+  margin: 0;
+  width: 1900px;
+  background-color: var(--bgc);
+	font-family: 'Open Sans', sans-serif;
+	color: var(--font);
+	font-size: 16px;
+}
+
+.white-container{
+  margin: auto;
+  background-color: white;
+	width: 1294px;
+}
+
+.text-container{
+  margin: auto;
+	width: 850px;
+}
+
+.disc{
+	font-size: 20px;
+}
+
+.facts{
+  margin-top: 50px;
+  margin-bottom: 50px;
+	padding: 10px;
+	background-color: #ebf5f5;
+}
+
+/*.facts li{
+	padding: 10px;
+}*/
+
+.ad{
+  margin-bottom: 50px;
+	text-align: center;
+	font-size: 26px;
+	color: #f7862a;
+}
+
+li{
+  margin-bottom: 30px;
+}
+
+div p{
+	padding: 10px;
+}
+
+hr{
+  margin-top: 15px;
+  margin-bottom: 15px;
+	color: #e5e5e5;
+}
+
+h1{
+  margin-bottom: 50px;
+  font-weight: normal;
+  margin-block-start: 0;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: normal;
+	text-align: center;
+	font-size: 26px;
+}
+
+h3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: normal;
+	text-align: center;
+	font-size: 26px;
+}
+
+h4{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: normal;
+	text-align: center;
+	font-size: 26px;
+}
+
+h5{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: normal;
+	text-align: center;
+	font-size: 26px;
+}
+
+img{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+a{
+	font-weight: 800;
+	color: #3075b8;
+	text-decoration: none;
+}
+
+footer{
+	height: 100px;
+}

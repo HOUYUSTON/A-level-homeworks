@@ -1,0 +1,42 @@
+body{
+    font-family:sans-serif;
+}
+
+.wrapper{
+  margin-right: auto;
+  margin-left: auto;
+  width: 50vw;
+  padding: 20px;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing:border-box;
+}
+
+i, sub{
+  color: blue;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.img1{
+  margin-right: 30px;
+  float:left;
+}
+
+.img2{
+  margin-left: 20px;
+  float:right;
+}
+
+.kod{
+  font-weight: 700;
+  font-style: italic;
+}
+
+.theme{
+  font-weight: 700;
+  color: green;
+}
